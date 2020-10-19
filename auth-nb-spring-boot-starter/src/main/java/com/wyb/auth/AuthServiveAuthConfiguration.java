@@ -25,7 +25,8 @@ public class AuthServiveAuthConfiguration {
         return new AuthServive(authServivePreperties.getName(), authServivePreperties.getType(), authServivePreperties.getCode());
     }
     @Bean
-    @ConditionalOnMissingBean(name = "AuthServive")
+    @ConditionalOnMissingBean
+//            (name = "AuthServive")
     public AuthServive authServive() {
         return new AuthServive("", "", "");
     }
