@@ -34,3 +34,4 @@ build/
 /.mvn/
 /auth-nb-spring-boot-starter/target/
 /auth-nb-spring-boot-starter/.mvn/
+/auth-nb-spring-boot-starter/.mvn/

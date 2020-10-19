@@ -2,6 +2,7 @@ server:
   port: 8111
 wyb:
   auth:
+    enabled: true
     name: chen
     code: zhongguo
     type: weiyibei
